@@ -906,7 +906,7 @@ body.active{
 }
 
 .footer-top::after{
-    content: url(/images/delivery-boy.svg);
+    content: url(images/delivery-boy.svg);
     position: absolute;
     bottom: -11px;
     left: -160px;
