@@ -231,11 +231,11 @@ body.active{
 }
 
 .section-divider.white::after{
-    background-image: url(/images/shape-white.png);
+    background-image: url(images/shape-white.png);
 }
 
 .section-divider.gray::after{
-    background-image: url(/images/shape-grey.png);
+    background-image: url(images/shape-grey.png);
 }
 
 .w-100{
