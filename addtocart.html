@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolt|Add To Cart</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="/css/addtocart.css">
+
+    <!-- Google Font Link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"rel="stylesheet">
+
+
+     <!-- ionicons -->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="header" data-header>
+
+        <div class="container">
+            <h1>
+                <a href="/index.html" class="logo">Wolt <span class="span">.</span></a>
+            </h1>
+            
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li class="nav-item">
+                        <a href="/index.html" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/index.html#about" class="navbar-link" data-nav-link>About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/index.html#food-menu" class="navbar-link" data-nav-link>Food</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="/index.html#contact-us" class="navbar-link" data-nav-link>Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+                
+            <div class="header-btn-group">
+
+                    <button class="cart-btn" aria-label="Cart" data-cart-btn>
+                        <ion-icon class="bx bx-shopping-bag" id="cart-icon" name="cart-sharp">(0)</ion-icon>
+                    </button>
+
+                    <button class="search-btn" aria-label="Search" data-search-btn>
+                        <ion-icon name="search-outline" ></ion-icon>
+                    </button>
+
+                    <button class="btn btn-hover">Order Now</button>
+
+                    <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+                        <span class="line top"></span>
+                        <span class="line middle"></span>
+                        <span class="line bottom"></span>
+                    </button>
+            </div>
+
+            <!-- CART -->
+
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+               
+                <div class="cart-content">
+                   
+
+                </div>
+
+                <div class="total">
+                    
+                    <div class="total-title">Total</div>
+                    <div class="total-price">0€</div>
+                    <!-- <div class="distance-title">Distance</div>
+                    <input type="number" value="1" class="distance">
+                    <div class="items-title">Items</div>
+                    <div class="items">3</div> -->
+
+
+                </div>
+                <button type="button" class="btn-buy">Buy Now</button>
+
+                <ion-icon name="close-outline" id="close-cart"></ion-icon>
+            </div>
+                
+                
+        </div>
+    </header>
+    
+    <!-- Search Box -->
+
+    <div class="search-container" data-search-container>
+        <div class="search-box">
+            <input type="search" name="search" class="search-input" aria-label="Search Here" placeholder="Type KeyWords Here...">
+
+            <button class="search-submit" aria-label="Submit Search " data-search-submit-btn>
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+        </div>
+        <button class="search-close-btn" aria-label="Cancel Search" data-search-close-btn></button>
+
+    </div>
+
+
+<!-- HERO Section -->
+<main>
+    <article>
+
+        <!-- HERO -->
+
+        <section class="hero" id="home" style="background-image:url(/images/background2.jpg)">
+            <div class="container">
+                
+
+                <figure class="hero-banner">
+
+                    <img src="/images/hero-banner-bg.png" class="w-100 hero-img-bg" width="820" height="716" loading="lazy"  alt="">
+
+                </figure>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- SHOP -->
+
+        <section class="shop container">
+
+            <h2 class="section-title">Dishes</h2>
+
+            <!-- Content -->
+            <div class="shop-content">
+                <div class="product-box">
+                    <img src="/images/food-menu-1.png" alt="" class="product-img">
+
+                    <h2 class="product-title">
+                        Fried Chicken Unlimited
+                    </h2>
+                    <span class="price">
+                        1.5€
+                    </span>
+                    <ion-icon class="bx bx-shopping-bag add-cart" id="cart-icon" name="cart-sharp"></ion-icon>
+
+                </div>
+                <div class="product-box">
+                    <img src="/images/food-menu-2.png" alt="" class="product-img">
+
+                    <h2 class="product-title">
+                        Burger King Whopper
+                    </h2>
+                    <span class="price">
+                        2€
+                    </span>
+                    <ion-icon class="bx bx-shopping-bag add-cart" id="cart-icon" name="cart-sharp"></ion-icon>
+
+                </div>
+                <div class="product-box">
+                    <img src="/images/food-menu-3.png" alt="" class="product-img">
+
+                    <h2 class="product-title">
+                        White Castle Pizza
+                    </h2>
+                    <span class="price">
+                        1€
+                    </span>
+                    <ion-icon class="bx bx-shopping-bag add-cart" id="cart-icon" name="cart-sharp"></ion-icon>
+
+                </div>
+                <div class="product-box">
+                    <img src="/images/food-menu-4.png" alt="" class="product-img">
+
+                    <h2 class="product-title">
+                        Bell Burrito Supreme
+                    </h2>
+                    <span class="price">
+                        2€
+                    </span>
+                    <ion-icon class="bx bx-shopping-bag add-cart" id="cart-icon" name="cart-sharp"></ion-icon>
+
+                </div>
+                <div class="product-box">
+                    <img src="/images/food-menu-5.png" alt="" class="product-img">
+
+                    <h2 class="product-title">
+                        Kung Pao Chicken BBQ
+                    </h2>
+                    <span class="price">
+                        3€
+                    </span>
+                    <ion-icon class="bx bx-shopping-bag add-cart" id="cart-icon" name="cart-sharp"></ion-icon>
+
+                </div>
+                <div class="product-box">
+                    <img src="/images/food-menu-6.png" alt="" class="product-img">
+
+                    <h2 class="product-title">
+                        Wendy's Chicken
+                    </h2>
+                    <span class="price">
+                        4€
+                    </span>
+                    <ion-icon class="bx bx-shopping-bag add-cart" id="cart-icon" name="cart-sharp"></ion-icon>
+
+                </div>
+                
+
+            </div>
+        </section>
+    </article>
+</main>
+
+
+    <script src="/js/addtocart.js"></script>
+</body>
+</html>
